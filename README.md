@@ -13,11 +13,11 @@ An interactive discounted-cash-flow (DCF) valuation calculator covering **31 com
 - **31 company models** — Technology, Communication Services, Consumer, Energy, Financials, Healthcare, Industrials, Utilities, and Materials — with filing-based free-cash-flow inputs, net-cash/debt bridges, and share counts.
 - **A Models tab with an 11-model library:** two-stage DCF, growth-fade (three-stage) DCF, reverse DCF, Buffett owner earnings, Greenwald Earnings Power Value, CAPM/WACC builder, bank residual income & P/B–ROE, dividend discount model, exit-multiple / sum-of-the-parts, a terminal-value consistency check (Damodaran), and a base-rate sanity check.
 - **Stock-based-compensation (SBC) adjusted cash-flow bases** — the default on the companies where SBC materially distorts reported free cash flow.
-- **A refinement log** recording each methodology improvement and why it was made.
+- **Refined every night.** The methodology is improved on a nightly cycle — one verified improvement per night — and **a refinement log** records each change and why it was made.
 
 ## Data and snapshot note
 
-Company inputs are drawn from SEC filings (10-K / 10-Q). This repository is a **snapshot as of November 19, 2026** (share prices as of the November 16–19, 2026 closes). The live version is maintained and refined separately, so figures here will drift from current market data over time.
+Company inputs are drawn from SEC filings (10-K / 10-Q). This repository is a **snapshot as of November 19, 2026** (share prices as of the November 16–19, 2026 closes). The live version is maintained separately and its methodology is refined every night, so figures here will drift from current market data over time.
 
 ## Disclaimer
 
